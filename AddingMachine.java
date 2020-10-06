@@ -28,7 +28,7 @@ public class AddingMachine {
     return total;
   }
   /**
-   * add a value to the total of the adding machine
+   * add a value to the total of the adding machine, adds the transaction to the history
    * @param value the value to be added to the total
   */
   public void add (int value) {
@@ -36,7 +36,7 @@ public class AddingMachine {
 	  history = history + " + " + value;
   }
   /**
-   * subtract a value from the total of the adding machine
+   * subtract a value from the total of the adding machine, adds the transaction to the history
    * @param value the value to be subtract from the total
   */
   public void subtract (int value) {
