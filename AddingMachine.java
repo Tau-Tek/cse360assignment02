@@ -1,5 +1,5 @@
 package cse360assignment02;
-
+//
 /**
  * Describes an object that has a value that can be added to and subtracted from
  * The counting machine keeps a history of transactions
@@ -14,7 +14,7 @@ public class AddingMachine {
    * the history of the adding machine. starts as "0", adding value appends " + value", subtracting value appends " + value"
    * accessed with toString()
   */
-  private string history;
+  private String history;
   
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
